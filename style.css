@@ -16,4 +16,68 @@
 
 body {
     font-family: "PT Sans", sans-serif;
+    font-size: 18px;
 }
+
+
+
+/* UTILITY */
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.pdd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.margin-l {
+    margin-left: 10px;
+
+}
+
+.btn {
+    border: none;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 15px;
+}
+
+.btnwhite {
+    background-color: white;
+}
+
+/* TIPOGRAPHY */
+
+
+/* HEADER */
+.navbar {
+    background-color: #0084fd;
+}
+
+.nav-ul {
+   color: white;
+   gap: 20px;
+   list-style: none;
+
+}
+
+.nav-link {
+    align-items: center;
+    display: flex;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
