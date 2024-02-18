@@ -80,7 +80,8 @@ body {
         padding: 4px 30px;
         border-radius: 10px;
     }
-    /* *BOTTONE PLANNING* */
+     /* /BOTTONI MAIN */
+    /* BOTTONI PLANNING */
     .purplebtn {
         background-color: #968ae0;
         color: black;
@@ -88,7 +89,14 @@ body {
         height: 50px;
         border-radius: 50%;
     }
-
+        /* /BOTTONI PLANNING */
+        /* BOTTONI WORKING */
+        .wrkbtn {
+            background-color: #968ae0;
+            color: white;
+            padding: 4px 30px;
+            border-radius: 10px;
+        }
     /* /BOTTONI */
 
 /* HEADER */
@@ -260,10 +268,49 @@ body {
     font-weight: 700;
 }
 /* /TESTIMONAIL  */
+
+/* WORKING  */
+#working {
+    background-color: #968ae0;
+}
+
 .wrkg-title {
     color: white;
     font-weight: 700;
+    text-align: center;
+    font-size: 54px;
+    padding-top: 40px;
+    margin-bottom: 40px;
 }
+
+#working .col{
+    width: calc(100% / 3);
+
+}
+
+.wrk-card {
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 15px;
+    color: #9792e4;
+    margin-top: 20px;
+}
+
+.wrk-card > p {
+    color: #5a6e7f;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.wrk-card > h1, h2 {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.wrk-card > h1 {
+    font-size: 62px;
+}
+
 /* /MAIN */
 
 
@@ -291,6 +338,19 @@ body {
             align-items: center;
     
         }
+
+        
+    #working .wrk-card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #working .col {
+        width: calc(100% / 2)
+        
+    }
+
     }
 
 
@@ -363,7 +423,23 @@ body {
         width: 50%;
     }
 
+    
+    #working .col {
+        width: 100%;
+
 
     }
 
+    #working {
+        text-align: left;
+    }
+
+    .wrk-card {
+        text-align: left;
+    }
+
+    .btn .wrkbtn {
+        justify-self: left;
+    }
+}
 
