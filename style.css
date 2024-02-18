@@ -17,6 +17,7 @@
 body {
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
+    line-height: 30px;
 }
 
 .col {
@@ -79,6 +80,14 @@ body {
         padding: 4px 30px;
         border-radius: 10px;
     }
+    /* *BOTTONE PLANNING* */
+    .purplebtn {
+        background-color: #968ae0;
+        color: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
 
     /* /BOTTONI */
 
@@ -117,6 +126,7 @@ body {
     color: #5a6e7f;
     padding-top: 30px;
     font-weight: 700;
+    padding-bottom: 20px;
 }
 
 .card-img {
@@ -151,16 +161,53 @@ body {
 /* PLANNING  */
 
 #planning {
-    background-color: #9792e4;
+    background-color: #968ae0;
+    padding-bottom: 50px;
 }
 
 #planning .col {
    max-width: 50%;
+   margin-top: 60px;
+}
+
+#planning h1 {
+    margin-top: 20px;
+}
+
+#planning p {
+    margin-top: 20px;
 }
 
 .plan-img1 {
   max-width: 100%;
 }
+
+
+.plan-img2 {
+    max-width: 50%;
+    border-radius: 40px;
+    padding: 0 20px;
+  }
+
+
+
+
+.plan-card-b {
+    text-align: center;
+    background-color: white;
+    align-self: flex-end;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.plan-card-a {
+    padding-top: 20px;
+    text-align: left;
+    align-self: flex-start;
+    color: white;
+}
+
+
 
 /* /MAIN */
 
@@ -182,7 +229,16 @@ body {
         display: flex;
         flex-direction: column;
     }
-}
+
+    #planning .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+    }
+
+
     
 
 @media screen and (max-width: 768px) {
@@ -193,8 +249,15 @@ body {
     .row {
         display: flex;
         flex-direction: column;
+        align-items: center;
 
     }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 
    #intro .big-col {
         margin-top: 15px;
@@ -205,6 +268,7 @@ body {
         flex-direction: column;
         align-items: center; /* Centra gli elementi lungo l'asse trasversale */
         justify-content: center;
+        align-items: center;
     }
     #intro .col {
         width: 100%;
