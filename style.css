@@ -207,8 +207,63 @@ body {
     color: white;
 }
 
+/* /PLANNING  */
 
+/* TESTIMONAIL  */
+.testi-title {
+   text-align: center;
+}
 
+.testi-title > h1 {
+    color: #9792e4;
+    font-size: 50px;
+    font-weight:600;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.testi-title > p {
+    font-weight: 500;
+}
+
+.testimonial-card {
+    background-color: #9792e4;
+    margin: 20px 20px;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.testimonial-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+#testimonials .col-img {
+    width: 25%;
+}
+#testimonials .col{
+    width: 75%;
+}
+
+.testimonal-text {
+    color: white;
+    padding-top: 45px;
+}
+
+.testimonial-name {
+    margin-top: 20px;
+    font-weight: 700;
+}
+/* /TESTIMONAIL  */
+.wrkg-title {
+    color: white;
+    font-weight: 700;
+}
 /* /MAIN */
 
 
@@ -266,7 +321,7 @@ body {
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center; /* Centra gli elementi lungo l'asse trasversale */
+        align-items: center; 
         justify-content: center;
         align-items: center;
     }
@@ -296,8 +351,17 @@ body {
         align-items: center;
     }
 
+    .testimonial-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
+    #testimonials .col-img {
+        text-align: center;
+        width: 50%;
+    }
 
 
     }
