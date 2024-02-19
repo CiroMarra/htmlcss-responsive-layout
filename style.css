@@ -50,14 +50,9 @@ body {
     flex-wrap: wrap;
 }
 
-.flex-direction {
-    flex-direction: column;
-}
-
 .center {
     text-align: center;
 }
-
     /* BOTTONI */
     .btn {
         background: none;
@@ -109,7 +104,6 @@ body {
             font-size: 24px;
             margin-bottom: 20px;
         }
-
          /* /BOTTOINI STARTED */
     /* /BOTTONI */
 
@@ -163,8 +157,7 @@ body {
 .col-b {
     display: flex;
     align-items: flex-end;
-    width: 50%;
-    
+    width: 50%; 
 }
 
 .intro-button {
@@ -204,15 +197,11 @@ body {
   max-width: 100%;
 }
 
-
 .plan-img2 {
     max-width: 50%;
     border-radius: 40px;
     padding: 0 20px;
   }
-
-
-
 
 .plan-card-b {
     text-align: center;
@@ -254,7 +243,6 @@ body {
     margin: 20px 20px;
     padding: 20px;
     border-radius: 30px;
-
 }
 
 .testimonial-img {
@@ -309,7 +297,6 @@ body {
     color: #9792e4;
     margin-top: 10px;
     margin-bottom: 40px;
-
 }
 
 .wrk-card > p {
@@ -355,6 +342,10 @@ body {
     margin-left: 64px;
 }
 
+#about-us {
+    margin-bottom: 30px;
+}
+
 .about-img {
     width: 250px;
     height: 250px;
@@ -362,11 +353,9 @@ body {
     border-radius: 100%;
     margin-left: 10px;
     margin-top: 40px;
-
 }
 
 .us-text-img {
-
     font-size: 75px;
     padding-top: 60px;
     color: #9792e4;
@@ -376,8 +365,6 @@ body {
      top: 0;
 
 }
-
-
 
 .us-p {
     color: #9792e4;
@@ -448,7 +435,6 @@ body {
         display: block;
     }
     
-
     .card {
         display: flex;
         flex-direction: column;
@@ -458,10 +444,8 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
-    
         }
-
-        
+ 
     #working .wrk-card {
         display: flex;
         flex-direction: column;
@@ -487,7 +471,6 @@ body {
         position: absolute;
         right: 14px;
          top: 0;
-    
     }
 
     .col-us {
@@ -495,9 +478,6 @@ body {
      }
     
     }
-
-
-    
 
 @media screen and (max-width: 768px) {
     .container {
@@ -569,8 +549,6 @@ body {
     
     #working .col {
         width: 100%;
-
-
     }
 
     #working {
@@ -585,18 +563,11 @@ body {
         justify-self: left;
     }
 
-
-
     #about-us .col {
         max-width: 80%;
         margin-left: 30px;
     }
-
-
-
-    
     .us-text-img {
-
         font-size: 75px;
         padding-top: 60px;
         color: #9792e4;
@@ -604,7 +575,6 @@ body {
         position: absolute;
         right: 14px;
         left: 180px;
-    
     }
 }
 
