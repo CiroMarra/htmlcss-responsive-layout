@@ -97,6 +97,20 @@ body {
             padding: 4px 30px;
             border-radius: 10px;
         }
+
+         /* /BOTTONI WORKING */
+
+         /* BOTTONI STARTED */
+         .strbtn {
+            color: #968ae0;
+            background-color: white;
+            padding: 4px 30px;
+            border-radius: 20px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+         /* /BOTTOINI STARTED */
     /* /BOTTONI */
 
 /* HEADER */
@@ -358,7 +372,7 @@ body {
     color: #9792e4;
     padding-left: 10px;
     position: absolute;
-    right: 66px;
+    right: 127px;
      top: 0;
 
 }
@@ -371,6 +385,37 @@ body {
     font-weight: 900;
 
 }
+/* ABOUT-US */
+/* STARTED */
+    #started {
+        background-color: #9792e4;
+    }
+
+    .start {
+        text-align: center;
+        color: #d5d4f4;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .start-white{
+        color: white;
+    }
+
+    .h1-start {
+        color: gold;
+        font-size: 56px;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        color: white;
+ 
+    }
+   .copyright a:visited {
+        color: white;
+      }
+  
 /* /MAIN */
 
 
