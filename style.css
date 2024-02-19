@@ -418,6 +418,23 @@ body {
   
 /* /MAIN */
 
+/* FOOTER */
+#foot-bg {
+    background-color: #333333;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.foot-text {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.foot-text a:visited {
+    color: #7875ae;
+
+}
 
 @media screen and (max-width: 992px) {
     .container {
